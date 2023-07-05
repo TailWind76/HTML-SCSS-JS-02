@@ -1,0 +1,1632 @@
+h1, h2 {
+  font-family: Poppins-Bold;
+  color: #fff;
+}
+
+.footer_items, .TrendingGames__Main, .TrendingGames__Title, .navigation, header {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.unityengIMG, .cryengIMG, .unrealengIMG {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+}
+
+.formContact, .ContactMap, .NewsBlock, .Review, .StudioInfo, .Tasks, .Achivments, .Team, .workWithUs, footer, .subscribe, .Projects {
+  box-sizing: border-box;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.AboutMain__title_text button, .mainTitle__text button {
+  border-radius: 40px;
+  background: linear-gradient(113deg, #FA8305 0%, #FB9E3C 100%);
+  width: 195px;
+  height: 53px;
+  flex-shrink: 0;
+}
+
+.Message textarea, .email input, .surname input, .name input {
+  border-radius: 9px;
+  border: 0.6px solid #CECECE;
+  background: rgba(255, 255, 255, 0.07);
+  height: 80%;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.Projects button, .TrendingGames__Title button {
+  width: 139px;
+  height: 57px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.11);
+  font-size: 20px;
+}
+
+button {
+  border-radius: 6px;
+  background: #FA9021;
+  width: 100px;
+  height: 50px;
+  border: none;
+  color: #fff;
+  font-family: Poppins;
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 5px solid #FA8305;
+  border-radius: 5px;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(../font/Poppins-Regular.woff);
+}
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(../font/Poppins-Bold.woff);
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  width: 15%;
+  text-align: center;
+}
+
+html,
+body {
+  margin: 0;
+  overflow-x: hidden !important;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: Poppins;
+  height: auto;
+  width: 100%;
+  background: linear-gradient(180deg, #000 0%, #331b00 100%);
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+header h1 {
+  width: 10%;
+  height: 100%;
+  font-size: 50px;
+  margin-left: 5%;
+}
+
+/* Home */
+header {
+  position: absolute;
+  top: 0;
+  box-sizing: border-box;
+  padding: 1%;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.navigation {
+  width: 60%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 1.4em;
+}
+
+main {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+
+.mainTitle_leftSide {
+  float: left;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 100px;
+  display: flex;
+}
+
+.mainTittleWrapper {
+  height: 900px;
+  width: 100%;
+}
+
+.mainTitle_rightSide {
+  position: relative;
+  float: right;
+  width: 50%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-right: 10%;
+}
+
+.gamepadIMG {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.unrealengIMG {
+  top: 50%;
+  left: -10%;
+}
+
+.cryengIMG {
+  top: 30%;
+  left: 10%;
+}
+
+.unityengIMG {
+  top: 30%;
+  left: 50%;
+  width: 15%;
+}
+
+.mainTitle__text {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.mainTitle__text h1 {
+  width: 80%;
+  height: 50%;
+  font-size: 4.5em;
+}
+.mainTitle__text p {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-size: 18px;
+  width: 80%;
+}
+.TrendingGames {
+  margin-top: 5%;
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.TrendingGames__Title {
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.TrendingGames__Title h2 {
+  font-size: 2.5em;
+}
+.TrendingGames__Main {
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+}
+
+.TrendingGames__Main_item {
+  width: 20%;
+  height: 390px;
+}
+.TrendingGames__Main_item img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+.TrendingGames__Main_item .TrendingGames_gameRate {
+  margin-top: 5%;
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.TrendingGames__Main_item .TrendingGames_gameRate img {
+  width: 30%;
+  height: 100%;
+}
+.TrendingGames__Main_item .TrendingGames_gameRate p {
+  color: #fff;
+  width: 50%;
+  height: 100%;
+  font-weight: bold;
+}
+
+.AboutIndustry {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.AboutIndustry h2 {
+  text-align: center;
+  font-size: 35px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 10%;
+}
+.AboutIndustry h3 {
+  color: #FFF;
+  font-size: 30px;
+}
+.AboutIndustry p {
+  color: #FFF;
+  font-size: 18px;
+  width: 40%;
+  margin: 0 5% 5% 0;
+  line-height: 2em;
+}
+.AboutIndustry img {
+  width: 100%;
+  height: 600px;
+  border-radius: 5px;
+}
+
+.specializations {
+  width: 100%;
+  height: 950px;
+  background: url("../images/Background.png");
+  margin-top: 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+}
+.specializations h3 {
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  font-size: 30px;
+}
+.specializations p {
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+}
+
+.dev-block {
+  height: 80%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
+}
+
+.dev-block_item {
+  height: 250px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+.dev-block_item img {
+  width: 20%;
+  height: 20%;
+}
+
+.dev-block__item_pictire {
+  width: 30%;
+  height: 40%;
+  border-radius: 50%;
+  background-color: #fff;
+  display: flex;
+}
+.dev-block__item_pictire img {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
+.Projects {
+  width: 100%;
+  margin-top: 10%;
+}
+.Projects h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 40px;
+}
+.Projects p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+  width: 30%;
+  margin: auto;
+}
+.Projects button {
+  margin: auto;
+  display: block;
+}
+
+.projects__items {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5%;
+  justify-content: center;
+}
+.projects__items img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-bottom: 5%;
+}
+
+.subscribe {
+  width: 100%;
+  height: 600px;
+}
+.subscribe h3 {
+  font-size: 32px;
+  color: #fff;
+}
+.subscribe p {
+  font-size: 20px;
+  color: #fff;
+  width: 40%;
+}
+
+.subscribeForm {
+  border-radius: 15px;
+  background: #1C140F;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.subscribeForm form {
+  width: 50%;
+  height: 30%;
+  position: relative;
+}
+.subscribeForm input {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+}
+.subscribeForm button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 80%;
+  margin-top: 1%;
+}
+
+footer {
+  width: 100%;
+  background-color: #000;
+  padding-top: 5%;
+}
+
+.footer_items {
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer__logo {
+  width: 40%;
+}
+.footer__logo p {
+  width: 40%;
+  font-size: 20px;
+}
+
+.footer__about {
+  width: 30%;
+}
+.footer__about p {
+  width: 100%;
+  margin: 1%;
+  padding: 0;
+}
+
+.Rights {
+  width: 100%;
+  border-top: 2px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* About */
+.AboutMain__title {
+  width: 100%;
+  height: 900px;
+  margin-top: 5%;
+}
+.AboutMain__title .gallery {
+  float: right;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.AboutMain__title .gallery .imgGallery {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  transition: transform 0.7s ease-in-out;
+}
+.AboutMain__title .gallery img {
+  width: 100%;
+  height: 100%;
+}
+.AboutMain__title .gallery .buttons {
+  background: #333;
+  width: 30%;
+  height: 15%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.5em;
+  color: #fff;
+}
+.AboutMain__title .gallery .buttons img {
+  width: 15%;
+  height: 30%;
+  cursor: pointer;
+}
+
+.AboutMain__title_text {
+  width: 40%;
+  height: 80%;
+  float: left;
+  display: flex;
+  box-sizing: border-box;
+  color: #fff;
+  padding-top: 100px;
+  padding-left: 10%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.AboutMain__title_text p {
+  font-size: 20px;
+}
+.AboutMain__title_text h3 {
+  font-size: 3.5em;
+  margin: 0;
+}
+.workWithUs {
+  width: 100%;
+  height: 600px;
+  margin-top: 10%;
+}
+.workWithUs h3 {
+  font-size: 32px;
+  color: #fff;
+}
+
+.Work_advantages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Work_advantages__item {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 2%;
+  color: #fff;
+  width: 378px;
+  height: 348px;
+  border-radius: 20px;
+  background: #1C140F;
+  box-shadow: 0px 4px 94px 0px rgba(0, 0, 0, 0.15);
+}
+.Work_advantages__item .advantages__item_title {
+  display: flex;
+  width: 140px;
+  height: 39px;
+  border-radius: 8px;
+  background: rgba(176, 0, 220, 0.11);
+}
+.Work_advantages__item .advantages__item_title p {
+  margin: auto;
+}
+
+.Studio_adverb {
+  width: 100%;
+  height: 850px;
+  background: #1C140F;
+}
+.Studio_adverb img {
+  float: left;
+  height: 100%;
+  width: 40%;
+}
+
+.Studio_adverb__text {
+  float: right;
+  width: 50%;
+  height: 100%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Studio_adverb__text h3 {
+  font-size: 35px;
+  width: 60%;
+}
+.Studio_adverb__text p {
+  font-size: 20px;
+  width: 70%;
+}
+
+.Team {
+  width: 100%;
+  height: 800px;
+  margin-top: 5%;
+}
+.Team h3 {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 5%;
+}
+
+.Team_Members {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 5%;
+}
+
+.Member {
+  width: 450px;
+  height: 400px;
+  border-radius: 20px;
+  background: #1C140F;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Member img {
+  width: 50%;
+  height: 40%;
+}
+.Member p {
+  margin: 0;
+}
+.Member .Member-Name {
+  font-size: 30px;
+  font-weight: bold;
+}
+.Member .Job-title {
+  font-size: 25px;
+}
+
+/* PORTFOLIO */
+.Achivments {
+  width: 100%;
+  height: 700px;
+  margin-top: 10%;
+}
+.Achivments h3, .Achivments p {
+  text-align: center;
+  color: #fff;
+}
+.Achivments h3 {
+  font-size: 35px;
+}
+
+.Achivments_block {
+  border-radius: 10px;
+  background: #1C140F;
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+  padding: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Achivments_block__item {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10%;
+}
+
+.Achivments_block__image {
+  width: 20%;
+  height: 60%;
+  border-radius: 50%;
+  background-color: #FFECEC;
+  display: flex;
+}
+.Achivments_block__image img {
+  margin: auto;
+  width: 60%;
+  height: 60%;
+}
+
+.Achivments_block__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Achivments_block__text h2 {
+  font-size: 3.5em;
+}
+.Achivments_block__text p {
+  margin: 0;
+  font-size: 25px;
+}
+
+.Tasks {
+  width: 100%;
+  height: 600px;
+}
+.Tasks img {
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.Tasks_text {
+  float: right;
+  width: 50%;
+  height: 500px;
+  box-sizing: border-box;
+  padding-left: 10%;
+}
+.Tasks_text h3 {
+  color: #fff;
+  font-size: 35px;
+  width: 60%;
+}
+.Tasks_text p {
+  color: #fff;
+  font-size: 18px;
+  width: 60%;
+}
+
+.tasks-option {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 3%;
+}
+.tasks-option img {
+  width: 10%;
+  height: 100%;
+}
+
+.StudioInfo {
+  margin-top: 10%;
+  width: 100%;
+  height: auto;
+}
+
+.StudioInfo_item {
+  width: 100%;
+  height: 650px;
+  margin-top: 10%;
+}
+.StudioInfo_item img {
+  width: 40%;
+  height: 100%;
+}
+.StudioInfo_item button {
+  background: #DC7000;
+}
+
+.StudioInfo_item__text {
+  width: 50%;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.StudioInfo_item__text h3 {
+  font-size: 35px;
+  width: 80%;
+}
+.StudioInfo_item__text p {
+  width: 80%;
+  font-size: 20px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.Review {
+  width: 100%;
+  height: 900px;
+  margin-top: 10%;
+}
+.Review h3 {
+  text-align: center;
+  margin: auto;
+  width: 30%;
+  color: #fff;
+  font-size: 35px;
+}
+.Review p {
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 5%;
+}
+
+.Review_Box {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Review_Box__item {
+  cursor: pointer;
+  width: 550px;
+  box-sizing: border-box;
+  padding: 1%;
+  height: 300px;
+  border-radius: 10px;
+  border: 5px solid #fff;
+  transition: 0.2s ease-in-out;
+}
+.Review_Box__item p {
+  width: 100%;
+  text-align: start;
+}
+
+.Review_Box__item:hover {
+  border: 5px solid rgb(220, 112, 0);
+  background: #0F0901;
+}
+
+.Review_Box__profile {
+  width: 100%;
+  height: 30%;
+}
+
+.Review_Box__profile_info {
+  width: 60%;
+  height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+}
+.Review_Box__profile_info img {
+  display: block;
+  width: 30%;
+  height: 100%;
+}
+.Review_Box__profile_info .Review_Box__profile__text {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.Review_Box__profile_info .Review_Box__profile__text h4 {
+  margin: 0;
+  font-size: 1.4em;
+  color: #fff;
+}
+.Review_Box__profile_info .Review_Box__profile__text p {
+  margin: 0;
+  color: #333;
+}
+
+.Review_Box__profile_rate {
+  height: 100%;
+  width: 15%;
+  float: right;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.Review_Box__profile_rate p {
+  font-size: 25px;
+  color: #fff;
+  width: 70%;
+  height: 50%;
+  margin: 0;
+}
+.Review_Box__profile_rate img {
+  width: 35%;
+  height: 100%;
+}
+
+/* NEWS   */
+.SearchNews {
+  width: 100%;
+  height: 500px;
+  margin-top: 200px;
+}
+.SearchNews h3 {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+}
+.SearchNews p {
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+}
+.SearchNews form {
+  margin: auto;
+  margin-top: 5%;
+  width: 30%;
+  height: 10%;
+  position: relative;
+}
+.SearchNews form img {
+  position: absolute;
+  right: 5%;
+  bottom: 0;
+  top: 15%;
+  width: 7%;
+}
+.SearchNews input {
+  font-size: 20px;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 5%;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(28, 20, 15);
+  border-radius: 10px;
+}
+.SearchNews input:focus + img {
+  display: none;
+}
+.SearchNews input::placeholder {
+  color: #fff;
+  font-size: 30px;
+}
+
+.NewsBlock {
+  width: 100%;
+  height: 2000px;
+}
+
+.NewsBlock__Main_News {
+  width: 40%;
+  height: 2000px;
+  float: left;
+}
+
+.NewsBlock__Side_News {
+  float: right;
+  width: 50%;
+  height: 2000px;
+}
+
+.NewsBlock__Main_News__item {
+  width: 100%;
+  height: 900px;
+}
+.NewsBlock__Main_News__item img {
+  width: 100%;
+  height: 40%;
+  border-radius: 20px;
+}
+
+.NewsBlock p {
+  color: #fff;
+}
+.NewsBlock h3 {
+  color: #fff;
+  font-size: 30px;
+}
+
+.NewsBlock__Author {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+}
+
+.NewsBlock__Author_Genre {
+  color: #cccccc;
+}
+
+.NewsBlock__Author_Name {
+  width: 164.044px;
+  height: 48px;
+  background: #2351F5;
+  color: #fff;
+  display: flex;
+}
+.NewsBlock__Author_Name p {
+  margin: auto;
+}
+
+.NewsBlock__Author_Genre {
+  font-size: 19px;
+}
+
+.NewsBlock__Side_Item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 200px;
+  gap: 5%;
+  margin-bottom: 10%;
+}
+.NewsBlock__Side_Item img {
+  width: 35%;
+  height: 100%;
+}
+.NewsBlock__Side_Item h3 {
+  font-size: 25px;
+}
+
+.NewsBlock__Side__content {
+  height: 70%;
+  width: 60%;
+}
+
+.pink {
+  background: #FF8484;
+}
+
+.orange {
+  background-color: rgb(255, 124, 50);
+}
+
+.green {
+  background-color: rgb(35, 165, 79);
+}
+
+.purple {
+  background-color: rgb(153, 33, 195);
+}
+
+/* CONTACT */
+.ContactTitle {
+  width: 100%;
+  height: 300px;
+  margin-top: 10%;
+}
+.ContactTitle h3 {
+  color: #fff;
+  font-size: 35px;
+  text-align: center;
+}
+.ContactTitle p {
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.ContactMap {
+  height: 1100px;
+  width: 100%;
+}
+.ContactMap img {
+  width: 100%;
+  height: 60%;
+}
+
+.ContactInfo {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.ContactInfo .item {
+  width: 30%;
+  height: 100%;
+}
+
+.social p {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.social_links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.socialContainer {
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  width: 15%;
+  background-color: rgb(28, 20, 15);
+}
+.socialContainer img {
+  width: 90%;
+  height: 30%;
+  display: block;
+  margin: auto;
+}
+
+.phone {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 25px;
+  align-items: center;
+  border-left: 5px solid gray;
+  border-right: 5px solid gray;
+}
+.phone img {
+  width: 20%;
+  height: 20%;
+}
+
+.geo {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  font-size: 25px;
+  align-items: center;
+}
+.geo img {
+  width: 20%;
+  height: 20%;
+}
+
+.formContact {
+  position: relative;
+  width: 100%;
+  height: 900px;
+  background-color: rgb(28, 20, 15);
+  color: #fff;
+}
+.formContact h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.formContact p {
+  font-size: 20px;
+  text-align: center;
+}
+.formContact .firstLine {
+  z-index: 11;
+  position: absolute;
+  top: 0;
+}
+.formContact img {
+  user-select: none;
+  pointer-events: none;
+}
+.formContact .secondLine {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 50%;
+  height: 50%;
+}
+.formContact form {
+  z-index: 99999;
+  color: #fff;
+  height: 700px;
+  width: 60%;
+  margin: auto;
+}
+.formContact form input {
+  z-index: 99999;
+}
+.formContact form button {
+  width: 25%;
+  height: 10%;
+  float: right;
+  margin-top: 5%;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 20%;
+  float: left;
+  align-items: start;
+}
+.surname {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  height: 20%;
+  float: right;
+  align-items: start;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 20%;
+  float: right;
+  align-items: start;
+}
+.Message {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50%;
+  float: right;
+  align-items: start;
+}
+@media screen and (max-width: 1800px) {
+  .Achivments_block__image {
+    width: 30% !important;
+    height: 75% !important;
+  }
+  .Achivments_block__image img {
+    width: 40% !important;
+  }
+  .SearchNews form {
+    width: 45% !important;
+  }
+}
+@media screen and (max-width: 1800px) and (max-width: 1600px) {
+  .Studio_adverb {
+    height: 680px !important;
+  }
+  .Achivments_block__image {
+    height: 60% !important;
+  }
+  .Team {
+    height: 700px !important;
+  }
+}
+@media screen and (max-width: 1800px) {
+  .Achivments_block__item {
+    width: 25% !important;
+  }
+  .StudioInfo_item__text p {
+    font-size: 18px !important;
+  }
+  .Review_Box__item {
+    width: 400px !important;
+  }
+  .Review {
+    height: 800px !important;
+  }
+  .mainTitle__text h1 {
+    font-size: 3.5em;
+  }
+  .dev-block_item {
+    width: 25%;
+  }
+  .subscribeForm button {
+    height: 90%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .TrendingGames__Main_item {
+    height: 300px !important;
+    width: 25% !important;
+  }
+  .TrendingGames__Main_item .TrendingGames_gameRate p {
+    font-size: 1me !important;
+  }
+  .dev-block_item {
+    width: 30%;
+  }
+  .subscribeForm form {
+    width: 60% !important;
+  }
+  .AboutMain__title {
+    margin-top: 15% !important;
+  }
+  .ContactInfo p {
+    font-size: 20px !important;
+  }
+  .Work_advantages__item {
+    width: 300px !important;
+  }
+  .Work_advantages__item h3 {
+    font-size: 1.5em !important;
+  }
+  .Studio_adverb__text h3 {
+    font-size: 2.5em !important;
+    width: 90% !important;
+  }
+  .Achivments_block__item {
+    width: 30% !important;
+  }
+  .Tasks_text {
+    height: auto !important;
+  }
+  .Tasks_text h3 {
+    font-size: 2.5em !important;
+  }
+  .Tasks_text p {
+    width: 100% !important;
+  }
+  .tasks-option {
+    margin-bottom: 0% !important;
+  }
+  .StudioInfo_item__text h3 {
+    font-size: 2em !important;
+  }
+  .StudioInfo_item img {
+    width: 45% !important;
+  }
+  .Review_Box__profile_rate {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .mainTitle__text h1 {
+    font-size: 2.5em !important;
+    height: auto;
+  }
+  .TrendingGames__Main_item .TrendingGames_gameRate {
+    height: auto;
+  }
+  .TrendingGames {
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+  .projects__items img {
+    width: 160px;
+    height: 120px;
+  }
+  .AboutMain__title_text h3 {
+    font-size: 2em !important;
+  }
+  .AboutMain__title {
+    height: 700px !important;
+  }
+  .Achivments {
+    margin-top: 15% !important;
+  }
+  .Achivments_block__image {
+    width: 40% !important;
+  }
+  .Tasks_text h3 {
+    font-size: 2em !important;
+  }
+  .StudioInfo_item__text p {
+    font-size: 15px !important;
+  }
+}
+@media screen and (max-width: 900px) {
+  header h1 {
+    display: none;
+  }
+  header .navigation {
+    width: 100%;
+    font-size: 16px !important;
+  }
+  header button {
+    width: auto;
+  }
+  .SearchNews form img {
+    width: 10% !important;
+  }
+  .mainTittleWrapper {
+    height: 650px;
+  }
+  .mainTitle_rightSide {
+    display: none;
+  }
+  .mainTitle_leftSide {
+    width: 100%;
+  }
+  .mainTitle__text h1 {
+    width: 100%;
+  }
+  .TrendingGames {
+    height: auto;
+  }
+  .TrendingGames__Title {
+    flex-direction: column;
+    align-items: center;
+  }
+  .TrendingGames__Main {
+    flex-direction: column;
+  }
+  .TrendingGames__Main_item {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+  .TrendingGames_gameRate {
+    height: 10% !important;
+  }
+  .TrendingGames_gameRate p {
+    margin: 0;
+  }
+  .TrendingGames_gameRate img {
+    height: 80% !important;
+  }
+  .AboutIndustry {
+    margin-top: 10%;
+  }
+  .AboutIndustry p {
+    width: 100%;
+  }
+  .AboutIndustry img {
+    height: 200px;
+  }
+  .AboutIndustry h2 {
+    width: auto;
+  }
+  .specializations {
+    height: auto;
+  }
+  .specializations h3 {
+    width: 100%;
+  }
+  .specializations p {
+    width: 100%;
+  }
+  .dev-block_item {
+    width: 45%;
+  }
+  .dev-block_item .dev-block__item_pictire {
+    width: 80%;
+  }
+  .Projects p {
+    width: 100%;
+  }
+  .subscribe p {
+    width: 100%;
+  }
+  .subscribeForm {
+    flex-direction: column;
+  }
+  .subscribeForm {
+    height: auto;
+  }
+  .subscribeForm input {
+    height: 50%;
+  }
+  .subscribeForm form {
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    height: 100px;
+  }
+  .subscribeForm button {
+    position: inherit;
+    height: 50%;
+    margin: auto;
+  }
+  .AboutMain__title {
+    margin-top: 25% !important;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .AboutMain__title_text {
+    width: 100%;
+    float: none;
+    padding-left: 0 !important;
+  }
+  .AboutMain__title_text h3 {
+    font-size: 1.5em !important;
+  }
+  .gallery {
+    width: 100% !important;
+    float: none;
+  }
+  .workWithUs {
+    height: auto;
+  }
+  .Work_advantages {
+    height: auto;
+    flex-direction: column;
+  }
+  .Work_advantages__item {
+    width: 100% !important;
+    margin-bottom: 5%;
+  }
+  .Studio_adverb {
+    height: 400px !important;
+  }
+  .Studio_adverb h3 {
+    font-size: 15px !important;
+  }
+  .Studio_adverb p {
+    font-size: 10px !important;
+  }
+  .Studio_adverb__text {
+    height: auto;
+  }
+  .Team {
+    height: auto !important;
+  }
+  .Team_Members {
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+  .Member {
+    width: 40%;
+    margin-bottom: 10%;
+  }
+  .Member .Member-Name {
+    text-align: center;
+  }
+  .Member img {
+    width: 100% !important;
+  }
+  .Achivments {
+    margin-top: 25% !important;
+    height: auto;
+  }
+  .Achivments_block {
+    height: auto;
+    flex-direction: column;
+  }
+  .Achivments_block__item {
+    width: 100% !important;
+    height: 180px;
+  }
+  .Achivments_block__image {
+    width: 40% !important;
+  }
+  .Tasks {
+    height: auto !important;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Tasks img {
+    float: none;
+    width: 100%;
+  }
+  .Tasks .Tasks_text {
+    width: 100%;
+    float: none;
+    height: auto !important;
+    padding-left: 0;
+  }
+  .Tasks .tasks-option {
+    height: 100px !important;
+  }
+  .Tasks .tasks-option img {
+    width: 20%;
+  }
+  .StudioInfo {
+    margin-top: 45% !important;
+  }
+  .StudioInfo img {
+    height: 40%;
+    border-radius: 20px;
+    width: 100% !important;
+  }
+  .StudioInfo_item__text h3 {
+    font-size: 1em !important;
+  }
+  .StudioInfo_item {
+    margin-bottom: 35%;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .StudioInfo_item__text {
+    width: 100%;
+  }
+  .StudioInfo_item__text p {
+    font-size: 13px !important;
+  }
+  .Review {
+    height: auto !important;
+  }
+  .Review h3 {
+    width: 100%;
+  }
+  .Review p {
+    font-size: 16px !important;
+  }
+  .Review .Review_Box {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .Review .Review_Box__item {
+    width: 300px !important;
+    margin-bottom: 10%;
+  }
+  .SearchNews form {
+    width: 60% !important;
+  }
+  .NewsBlock__Main_News__item {
+    height: 30%;
+  }
+  .NewsBlock {
+    display: flex;
+    flex-direction: column;
+    height: auto !important;
+  }
+  .NewsBlock__Main_News {
+    width: 100%;
+    height: auto;
+  }
+  .NewsBlock__Side_Item h3 {
+    font-size: 12px !important;
+  }
+  .NewsBlock h3 {
+    font-size: 12px !important;
+  }
+  .NewsBlock__Side_News {
+    width: 100%;
+    height: auto;
+  }
+  .NewsBlock__Side_Item {
+    height: 150px !important;
+  }
+  .ContactTitle {
+    margin-top: 30% !important;
+  }
+  .ContactMap {
+    height: 500px !important;
+  }
+  .ContactInfo p {
+    font-size: 10px !important;
+  }
+  .socialContainer {
+    width: auto;
+  }
+  .formContact .secondLine {
+    width: auto;
+    height: auto;
+  }
+  .formContact form {
+    width: auto;
+  }
+  .formContact form button {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
