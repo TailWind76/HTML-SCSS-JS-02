@@ -657,7 +657,6 @@ footer {
   width: 100%;
   height: 300px;
   box-sizing: border-box;
-  padding: 5%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -673,7 +672,7 @@ footer {
 }
 
 .Achivments_block__image {
-  width: 20%;
+  width: 50%;
   height: 60%;
   border-radius: 50%;
   background-color: #FFECEC;
@@ -1207,7 +1206,7 @@ footer {
 }
 @media screen and (max-width: 1800px) {
   .Achivments_block__image {
-    width: 30% !important;
+    width: 40% !important;
     height: 75% !important;
   }
   .Achivments_block__image img {
@@ -1332,7 +1331,7 @@ footer {
     margin-top: 15% !important;
   }
   .Achivments_block__image {
-    width: 40% !important;
+    width: 20% !important;
   }
   .Tasks_text h3 {
     font-size: 2em !important;
@@ -1514,7 +1513,7 @@ footer {
     height: 180px;
   }
   .Achivments_block__image {
-    width: 40% !important;
+    width: 20% !important;
   }
   .Tasks {
     height: auto !important;
@@ -1626,6 +1625,21 @@ footer {
   }
   .formContact form button {
     width: auto;
+  }
+}
+@media screen and (min-width: 2000px) {
+  .Review_Box__item {
+    width: 600px;
+    height: 450px;
+  }
+  .Achivments_block__image {
+    width: 40%;
+  }
+  .Achivments_block {
+    padding: 0;
+  }
+  .NewsBlock__Side_Item img {
+    width: 20%;
   }
 }
 
